@@ -1,0 +1,21 @@
+﻿CREATE TABLE [dbo].[PatientTable] (
+    [patient_no]                 INT          NOT NULL,
+    [patient_lname]              VARCHAR (50) NOT NULL,
+    [patient_fname]              VARCHAR (50) NOT NULL,
+    [patient_phone]              VARCHAR (50) NOT NULL,
+    [patient_gender]             VARCHAR (50) NOT NULL,
+    [patient_symptom_01]         INT  NULL,
+	[patient_symptom_02]         INT  NULL,
+	[patient_symptom_03]         INT  NULL,
+	[patient_symptom_04]         INT  NULL,
+	[patient_symptom_05]         INT  NULL,
+	[patient_symptom_06]         INT  NULL,
+	[patient_symptom_07]         INT  NULL,
+	[patient_symptom_08]         INT  NULL,
+	[patient_symptom_09]         INT  NULL,
+	[patient_symptom_10]         INT  NULL,
+	[patient_symptom_11]         INT  NULL,
+	[patient_symptom_12]         INT  NULL,
+	[patient_symptom_13]         INT  NULL,
+    PRIMARY KEY CLUSTERED ([patient_no] ASC)
+);

@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Created by: Justin Collier
+// Date Created: March 7, 2024
+// Purpose: This is the front-end applicarion for our Tuberculosis predictive diagnosis system. Patients will give their personal info and symptoms and it will be fed into our DB and ML algorithm.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

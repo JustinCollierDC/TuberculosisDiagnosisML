@@ -86,12 +86,13 @@ namespace MD_Dashboard
                     bool checkApetiteLossVal = false;
                     if (checkApetiteLoss.IsChecked == true) { checkApetiteLossVal = true; }
 
-                    /*
+                    MessageBox.Show("Symptoms have been submitted.");
+
                     // Call Parameterized Patient Constructor
+                    /*
                     Patient thisPatient = new Patient(10001, txtLastName.Text, txtFirstName.Text, txtPhone.Text, txtGender.Text, checkFeverVal, checkCoughBloodVal, checkNightSweatsVal, checkBloodySputumVal, checkChestPainVal,
                         checkBackPainVal, checkShortnessBreathVal, checkWeightLossVal, checkTirednessVal, checkNeckLumpsVal, checkCoughPhlegmVal, checkSwollenLymphVal, checkApetiteLossVal);
                     */
-
                     // Patient info is added into DB through the Patient Class.
                 }
             }   
